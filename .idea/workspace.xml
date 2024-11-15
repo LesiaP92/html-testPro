@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ac77a7-6a7e-41a2-ba4b-9734834bac0b" name="Changes" comment="" />
+    <list default="true" id="05ac77a7-6a7e-41a2-ba4b-9734834bac0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/homeWork4.2/index4.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork4.2/script4.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork4.4/index4.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork4.4/script4.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +55,9 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/lesavolodimirivna/Desktop/teaching/html-testPro",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,6 +107,8 @@
       <workItem from="1731483373701" duration="3345000" />
       <workItem from="1731490160927" duration="3600000" />
       <workItem from="1731521924198" duration="5237000" />
+      <workItem from="1731593198792" duration="5175000" />
+      <workItem from="1731656135239" duration="3926000" />
     </task>
     <servers />
   </component>

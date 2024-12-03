@@ -1,23 +1,27 @@
-function enterNumber (){
-    let number = [];
-    for (let i = 0; i < 10; i++){
-let input = prompt("Введіть число більше 100:");
-        if (input === null || input.trim() === "") {
-            console.log("Завершено!");
+function printChoise() {
+    let userInput;
+    let attempts = 0;
+    const maxAttempts = 10;
+
+    while (attempts < maxAttempts) {
+        userInput = prompt("Введіть число більше 100:");
+        if (userInput === null) {
+            console.log("Ввід скасовано.");
             return;
         }
-        input = Number(input); // Перетворюємо на число
-        if (isNaN(input)) { // Якщо введене не є числом
-            alert("Введіть коректне число!");
-            i--; // Повертаємо ітерацію назад
-            continue;
+
+        userInput = Number(userInput);
+
+        if (userInput > 100) {
+            console.log("Ви ввели:", userInput);
+            return;
         }
 
+        alert("Число повинно бути більше 100. Спробуйте ще раз.");
+        attempts++;
     }
 
-    //ввести числа до масиву
-
-    
+    console.log("Останнє введення:", userInput);
 }
 
-enterNumber();
+printChoise();

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ac77a7-6a7e-41a2-ba4b-9734834bac0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homeWork10.2/index10.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeWork10.2/script10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork10.3/index10.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork10.3/script10.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.1/index11.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.1/script11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.2/index11.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.2/script11.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.3/index11.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.3/script11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeWork11.3/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +30,7 @@
         <option value="SCSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,7 +64,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/lesavolodimirivna/Desktop/teaching/html-testPro&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -122,7 +130,10 @@
       <workItem from="1732916602574" duration="12000" />
       <workItem from="1733073975768" duration="114000" />
       <workItem from="1733220315816" duration="7240000" />
-      <workItem from="1733258404547" duration="3636000" />
+      <workItem from="1733258404547" duration="5936000" />
+      <workItem from="1733764096205" duration="644000" />
+      <workItem from="1733903492898" duration="3527000" />
+      <workItem from="1733913419593" duration="306000" />
     </task>
     <servers />
   </component>

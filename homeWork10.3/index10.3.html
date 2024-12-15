@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>homeWork10.3</title>
+    <link rel="stylesheet" href="style10.3.css">
     <script src="./script10.3.js" defer></script>
 </head>
 <body>
-
+<h1>Контактна книга</h1>
+<h3>Додати новий контакт</h3>
+<form id="addContactForm">
+    <label>
+        Ім'я:
+        <input type="text" id="nameInput" required>
+    </label>
+    <br>
+    <label>
+        Телефон:
+        <input type="text" id="phoneInput" required>
+    </label>
+    <br>
+    <label>
+        Електронна пошта:
+        <input type="email" id="emailInput" required>
+    </label>
+    <br>
+    <button type="submit">Додати контакт</button>
+</form>
+<h2>Пошук контакту</h2>
+<form>
+    <label>
+        Введіть ім'я:
+        <input type="text" id="searchInput">
+    </label>
+    <button id="searchButton">Знайти</button>
+</form>
+<p id="searchResult"></p>
 </body>
 </html>

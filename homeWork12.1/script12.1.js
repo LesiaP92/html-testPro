@@ -1,6 +1,6 @@
 let userLink = '';
 
-document.getElementById('setLinkButton').addEventListener('click', function() {
+document.getElementById('setLinkButton').addEventListener('click', function () {
     userLink = prompt('Введіть посилання (URL):', 'https://');
     if (userLink) {
         alert('Посилання збережено!');
@@ -9,7 +9,7 @@ document.getElementById('setLinkButton').addEventListener('click', function() {
     }
 });
 
-document.getElementById('redirectButton').addEventListener('click', function() {
+document.getElementById('redirectButton').addEventListener('click', function () {
     if (userLink) {
         window.location.href = userLink;
     } else {

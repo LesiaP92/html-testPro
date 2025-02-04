@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEATHER</title>
+    <link href="./style19.1.css" rel="stylesheet">
+    <script src="./script19.1.js" defer></script>
+</head>
+<body>
+<h1>ПОГОДА В МІСТАХ</h1>
+<label for="citySelect">Виберіть місто:</label>
+<select id="citySelect">
+    <option value="Odesa">Одеса</option>
+    <option value="Kyiv">Київ</option>
+    <option value="Lviv">Львів</option>
+    <option value="Kharkiv">Харків</option>
+    <option value="Kherson">Херсон</option>
+    <option value="Rivne">Рівне</option>
+    <option value="Ivano-Frankivsk">Івано-Франківськ</option>
+    <option value="Mariupol">Маріуполь</option>
+    <option value="Dnipro">Дніпро</option>
+</select>
+<button onclick="getWeather()">Оновити</button>
+<div class="weather-box" id="weatherBox">
+    <h2 id="city">Місто</h2>
+    <p id="temperature">Температура: --°C</p>
+    <p id="weather">Погода: --</p>
+    <p id="wind">Вітер: -- км/год</p>
+    <p id="humidity">Вологість: --%</p>
+    <p id="pressure">Тиск: -- hPa</p>
+</div>
+</body>
+</html>

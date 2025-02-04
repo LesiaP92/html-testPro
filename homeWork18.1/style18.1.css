@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.timerText {
+    font-size: 40px;
+}
+
+.timerNumbers {
+    max-width: 200px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background: darkgrey;
+}
